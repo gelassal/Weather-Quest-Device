@@ -102,9 +102,9 @@ void SysTick_Wait10ms(int x);
 void Systick_Init();
 void Systick_Handler();
 // To Do: replace the following three lines with your access point information
-#define SSID_NAME  "Georgey" /* Access point name to connect to */
+#define SSID_NAME  "NAME" /* Access point name to connect to */
 #define SEC_TYPE   SL_SEC_TYPE_WPA
-#define PASSKEY    "boom3210"  /* Password in case of secure AP */ 
+#define PASSKEY    "PASSWORD"  /* Password in case of secure AP */ 
 #define MAXLEN 100
 
 #define CR   0x0D
@@ -250,7 +250,7 @@ char REQUEST_CITY [MAXLEN] = "GET /data/2.5/weather?q=";
 char REQUEST_ZIP [MAXLEN] = "GET /data/2.5/weather?zip=";
 char REQUEST_CITY_ID [MAXLEN] = "GET /data/2.5/weather?id=";
 char REQUEST_GEO [MAXLEN] = "GET /data/2.5/weather?lat=";
-char APPID [200] = "&APPID=02859f3e91d2f792137f4899cb2f792d&units=imperial HTTP/1.1\r\nUser-Agent: Keil\r\nHost:api.openweathermap.org\r\nAccept: */*\r\n\r\n";
+char APPID [200] = "YOUR_API_KEY_HERE";
 char REQUEST[300];
 // 1) go to http://openweathermap.org/appid#use 
 // 2) Register on the Sign up page
